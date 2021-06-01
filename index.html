@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;  800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./main.css">
     <title>SurfBoard</title>
@@ -174,14 +174,107 @@
                 </section>
                 <section class="feedback">
                     <div class="container">
-                        <h3 class="team-title title">Отзывы</h3>
+                        <h3 class="feedback-title title">Отзывы</h3>
+                        <div class="review">
+                            <img src="./images/peoples/feedback/girl.png" alt="girl" class="reviev-img">
+                            <div class="review__content">
+                                <ul class="review__list">
+                                    <li class="review__item">
+                                        <h5 class="review__title">Лучший дизайн</h5>
+                                    </li>
+                                    <li class="review__item">
+                                        <p class="review__text">Я увидела доски на сайте и влюбилась в их дизайн. К летнему сезону я заказала себе доску в SurfBoard. Дизайнер команды - волшебница! Она учла все мои предпочтения и комментарии. В итоге получился прекрасный дизайн. А я катаюсь на доске, которая мне нравится)
+                                        </p>
+                                    </li>
+                                    <li class="review__item">
+                                        <div class="review__writer">Ольга Макарова
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="feedback__selection">
+                            <ul class="authors__list">
+                                <div class="authors__elem"><img src="./images/peoples/feedback/girl-icon.png" alt="" class="authors--img"></div>
+                                <div class="authors__elem"><img src="./images/peoples/feedback/man-icon.png" alt="" class="authors--img"></div>
+                                <div class="authors__elem"><img src="./images/peoples/feedback/girl2-icon.png" alt="" class="authors--img"></div>
+                            </ul>
+                        </div>
                     </div>
                 </section>
                 <section class="video">
                     <div class="container"></div>
                 </section>
                 <section class="form">
-                    <div class="container"></div>
+                    <div class="container">
+                        <h3 class="form-title title">Закажите доставку</h3>
+                        <form action="" class="form">
+                            <div class="form__column">
+                                <div class="form__row">
+                                    <ul class="row__list">
+                                        <li class="row__item">
+                                            <div class="name">Имя</div>
+                                            <input type="text" placeholder="Имя" class="form__input">
+                                        </li>
+                                        <li class="row__item">
+                                            <div class="name">Телефон</div>
+                                            <input type="text" placeholder="+78008008080" class="form__input">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="form__row">
+                                    <ul class="row__list address">
+                                        <li class="row__item">
+                                            <div class="street">Улица</div>
+                                            <input id="street" type="text" placeholder="Улица" class="form__input">
+                                        </li>
+                                        <li class="row__item">
+                                            <div class="home">Дом</div>
+                                            <input type="text" placeholder="Дом" class="form__input">
+                                        </li>
+                                        <li class="row__item">
+                                            <div class="casing">Корпус</div>
+                                            <input type="text" placeholder="Корпус" class="form__input">
+                                        </li>
+                                        <li class="row__item">
+                                            <div class="flat">Квартира</div>
+                                            <input type="text" placeholder="Квартира" class="form__input">
+                                        </li>
+                                        <li class="row__item">
+                                            <div class="floor">Этаж</div>
+                                            <input type="text" placeholder="Этаж" class="form__input">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="form__column">
+                                <div class="form__row">
+                                    <div class="comment">Комментарий</div>
+                                    <textarea placeholder="Напишите свой честный комментарий ;)" class="form__input form__input--teatarea"></textarea>
+                                </div>
+                                <div class="form__controls">
+                                    <ul class="controls">
+                                        <li class="controls__item">
+                                            <input type="radio" name="" id="" class="controls__radio">
+                                            <div class="controls__tag">Оплата наличными</div>
+                                        </li>
+                                        <li class="controls__item">
+                                            <input type="radio" name="" id="" class="controls__radio">
+                                            <div class="controls__tag">Оплата картой</div>
+                                        </li>
+                                        <li class="controls__item">
+                                            <input type="checkbox" name="" id="" class="controls__checkbox">
+                                            <div class="controls__tag">Не перезванивать</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="form_buttons">
+                                    <button type="submit" class="button button--primary button--yellow">Заказать</button>
+                                    <button type="reset" class="button button--primary button--borderless">Очистить</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </section>
                 <section class="map">
                     <div class="container"></div>
