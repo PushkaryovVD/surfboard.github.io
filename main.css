@@ -309,10 +309,13 @@ h1,h2,h3,h4,h5,h6{
     border-top: 6px solid #000;
     position: absolute;
     top: 7px;
-    right: 40px;
+    right: 35px;
     cursor: pointer;
 }
-
+/* отдельный nth для item-title-triangle */
+.item-title-triangle:last-child::after{
+    right: 45px;
+}
 .item-title-triangle::after:focus{
     border-top: 4px solid transparent;
     border-bottom: 6px solid #000;
