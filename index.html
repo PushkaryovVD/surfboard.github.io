@@ -8,7 +8,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;  800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./main.scss">
     <title>SurfBoard</title>
 </head>
 <body>
@@ -47,17 +46,17 @@
                             <div class="main-page__advanteges">
                                 <ul class="advantege__list">
                                     <li class="advantege__item">
-                                        <img src="./images/icons/rocket.png" alt="rocket" class="item-img">
-                                        <p class="item-text">Уникальный дизайн</p>
+                                        <img src="./images/icons/rocket.png" alt="rocket" class="advantege__img">
+                                        <p class="advantege__text">Уникальный дизайн</p>
                                     </li>
                                     <li class="advantege__item">
-                                        <img src="./images/icons/sawmill.png" alt="saw" class="item-img">
-                                        <p class="item-text">Прочные
+                                        <img src="./images/icons/sawmill.png" alt="saw" class="advantege__img">
+                                        <p class="advantege__text">Прочные
                                             материалы</p>
                                     </li>
                                     <li class="advantege__item">
-                                        <img src="./images/icons/mail.png" alt="mail" class="item-img">
-                                        <p class="item-text">Быстрая 
+                                        <img src="./images/icons/mail.png" alt="mail" class="advantege__img">
+                                        <p class="advantege__text">Быстрая 
                                             доставка</p>
                                     </li>
                                 </ul>
@@ -85,45 +84,22 @@
                             <p class="title-review">Мы создаем уникальные и качественные доски из прочных и экологичных материалов.</p>
                         </div>
                         <ul class="features__list">
-                            <li class="features__item">
-                                <ul class="feature__list">
-                                    <li class="feature__item feature__item-circle">
-                                        <img src="./images/icons/feat-2.png" alt="man" class="item-img">
-                                    </li>
-                                    <li class="feature__item">
-                                        <h4 class="item-title">Perfect Fit</h4>
-                                    </li>
-                                    <li class="feature__item">
-                                        <p class="item-text">Мы создаем доски по индивидуальным замерам. Мы учитываем при создании ваш рост, вес и уровень подготовки.</p>
-                                    </li>
-                                </ul>
+                            <li class="feature__item feature__item-circle">
+                                    <div class="feature__img"><img src="./images/icons/feat-2.png" alt="man" class="feature__icon"></div>
+                                    <h4 class="feature__title">Perfect Fit</h4>
+                                    <p class="feature__text">
+                                        Мы создаем доски по индивидуальным замерам. Мы учитываем при создании ваш рост, вес и уровень подготовки.
+                                    </p>
                             </li>
-                            <li class="features__item features__item-circle">
-                                <ul class="feature__list">
-                                    <li class="feature__item feature__item-circle">
-                                        <img src="./images/icons/feat-1.png" alt="world" class="item-img">
-                                    </li>
-                                    <li class="feature__item">
-                                        <h4 class="item-title">Strong</h4>
-                                    </li>
-                                    <li class="feature__item">
-                                        <p class="item-text">Мы используем только качественные и экологичные материалы. Ваша доска прослужит вам долгие годы.</p>
-                                    </li>
-                                </ul>
+                            <li class="feature__item feature__item-circle">
+                                <div class="feature__img"><img src="./images/icons/feat-1.png" alt="man" class="feature__icon"></div>
+                                <h4 class="feature__title">Strong</h4>
+                                <p class="feature__text">Мы используем только качественные и экологичные материалы. Ваша доска прослужит вам долгие годы.</p>
                             </li>
-                            <li class="features__item features__item-circle">
-                                <ul class="feature__list feature__item-circle">
-                                    <li class="feature__item feature__item-circle">
-                                        <img src="./images/icons/feat-3.png" alt="" class="item-img">
-
-                                    </li>
-                                    <li class="feature__item">
-                                        <h4 class="item-title">Unique</h4>
-                                    </li>
-                                    <li class="feature__item">
-                                        <p class="item-text">Вы станете обладателем уникального серфборда. Доска будет выполнена по вашему уникальному дизайну. </p>
-                                    </li>
-                                </ul>
+                            <li class="feature__item feature__item-circle">
+                                <div class="feature__img"><img src="./images/icons/feat-3.png" alt="man" class="feature__icon"></div>
+                                <h4 class="feature__title">Unique</h4>
+                                <p class="feature__text">Вы станете обладателем уникального серфборда. Доска будет выполнена по вашему уникальному дизайну. </p>
                             </li>
                         </ul>
                     </div>
@@ -196,9 +172,9 @@
                         </div>
                         <div class="feedback__selection">
                             <ul class="authors__list">
-                                <div class="authors__elem"><img src="./images/peoples/feedback/girl-icon.png" alt="" class="authors--img"></div>
-                                <div class="authors__elem"><img src="./images/peoples/feedback/man-icon.png" alt="" class="authors--img"></div>
-                                <div class="authors__elem"><img src="./images/peoples/feedback/girl2-icon.png" alt="" class="authors--img"></div>
+                                <a href="#" class="authors__elem"><img src="./images/peoples/feedback/girl-icon.png" alt="" class="authors--img"></a>
+                                <a href="#" class="authors__elem"><img src="./images/peoples/feedback/man-icon.png" alt="" class="authors--img"></a>
+                                <a href="#" class="authors__elem"><img src="./images/peoples/feedback/girl2-icon.png" alt="" class="authors--img"></a>
                             </ul>
                         </div>
                     </div>
@@ -206,68 +182,71 @@
                 <section class="video">
                     <div class="container"></div>
                 </section>
-                <section class="form">
+                <section class="form form--font-color--white">
                     <div class="container">
-                        <h3 class="form-title title">Закажите доставку</h3>
+                        <h3 class="section__title title">Закажите доставку</h3>
                         <form action="" class="form">
                             <div class="form__column">
                                 <div class="form__row">
-                                    <ul class="row__list">
-                                        <li class="row__item">
-                                            <div class="name">Имя</div>
+                                        <label class="form__block">
+                                            <div class="form__title">Имя</div>
                                             <input type="text" placeholder="Имя" class="form__input">
-                                        </li>
-                                        <li class="row__item">
-                                            <div class="name">Телефон</div>
+                                        </label>
+                                        <label class="form__block">
+                                            <div class="form__title">Телефон</div>
                                             <input type="text" placeholder="+78008008080" class="form__input">
-                                        </li>
-                                    </ul>
+                                        </label>
                                 </div>
                                 <div class="form__row">
-                                    <ul class="row__list address">
-                                        <li class="row__item">
-                                            <div class="street">Улица</div>
-                                            <input id="street" type="text" placeholder="Улица" class="form__input">
-                                        </li>
-                                        <li class="row__item">
-                                            <div class="home">Дом</div>
-                                            <input type="text" placeholder="Дом" class="form__input">
-                                        </li>
-                                        <li class="row__item">
-                                            <div class="casing">Корпус</div>
-                                            <input type="text" placeholder="Корпус" class="form__input">
-                                        </li>
-                                        <li class="row__item">
-                                            <div class="flat">Квартира</div>
-                                            <input type="text" placeholder="Квартира" class="form__input">
-                                        </li>
-                                        <li class="row__item">
-                                            <div class="floor">Этаж</div>
-                                            <input type="text" placeholder="Этаж" class="form__input">
-                                        </li>
-                                    </ul>
+                                    <label class="form__block">
+                                        <div class="form__title">Улица</div>
+                                        <input type="text" placeholder="Улица" class="form__input">
+                                    </label>
+                                </div>
+                                <div class="form__row">
+                                    <label class="form__block">
+                                        <div class="form__title">Дом</div>
+                                        <input type="text" placeholder="Дом" class="form__input">
+                                    </label>
+                                    <label class="form__block">
+                                        <div class="form__title">Корпус</div>
+                                        <input type="text" placeholder="Корпус" class="form__input">
+                                    </label>
+                                    <label class="form__block">
+                                        <div class="form__title">Квартира</div>
+                                        <input type="text" placeholder="Квартира" class="form__input">
+                                    </label>
+                                    <label class="form__block">
+                                        <div class="form__title">Этаж</div>
+                                        <input type="text" placeholder="Этаж" class="form__input">
+                                    </label>
                                 </div>
                             </div>
                             <div class="form__column">
                                 <div class="form__row">
-                                    <div class="comment">Комментарий</div>
-                                    <textarea placeholder="Напишите свой честный комментарий ;)" class="form__input form__input--teatarea"></textarea>
+                                    <label class="form__block">
+                                        <div class="form__title">Комментарий</div>
+                                        <textarea placeholder="Напишите свой честный комментарий ;)" class="form__input form__input--textarea"></textarea>
+                                    </label>
                                 </div>
                                 <div class="form__controls">
-                                    <ul class="controls">
-                                        <li class="controls__item">
-                                            <input type="radio" name="" id="" class="controls__radio">
-                                            <div class="controls__tag">Оплата наличными</div>
-                                        </li>
-                                        <li class="controls__item">
-                                            <input type="radio" name="" id="" class="controls__radio">
-                                            <div class="controls__tag">Оплата картой</div>
-                                        </li>
-                                        <li class="controls__item">
-                                            <input type="checkbox" name="" id="" class="controls__checkbox">
-                                            <div class="controls__tag">Не перезванивать</div>
-                                        </li>
-                                    </ul>
+                                            <label class="radio">
+                                                <input type="radio" name="option"  class="radio__elem">
+                                                <div class="radio__visible"></div>
+                                                <div class="radio__title">Оплата наличными</div>
+                                            </label>
+                                            <label class="radio">
+                                                <input type="radio" name="option" class="radio__elem">
+                                                <div class="radio__visible"></div>
+                                                <div class="radio__title">Оплата наличными</div>
+                                            </label>
+                                </div>
+                                <div class="form__controls">
+                                    <label class="radio radio--checkbox">
+                                        <input type="checkbox" name="" id="" class="radio__elem">
+                                        <div class="radio__visible"></div>
+                                        <div class="radio__title">Не перезванивать</div>
+                                    </label>
                                 </div>
                                 <div class="form_buttons">
                                     <button type="submit" class="button button--primary button--yellow">Заказать</button>
