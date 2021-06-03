@@ -1,0 +1,75 @@
+.features{
+    margin-bottom: 114px;
+}
+.features__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 81px;
+}
+.title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.title-review{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #666666;
+    max-width: 436px;
+}
+.features__list{
+    display: flex;
+    gap: 53px;
+    justify-content: center;
+}
+
+.feature__list{
+    max-width: 279px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature__item .item-img{
+    height: 68px;
+    margin-bottom: 50px;
+}
+.feature__item .item-title{
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.features__item-circle::before{
+    z-index: -1;
+    content: url("./images/icons/Combinedshape.png");
+    display: block;
+    position: absolute;
+    left: -62px;
+    top: 28px;
+}
+.features__item{
+    position: relative;
+}
+.feature__item-circle::before{
+    z-index: -1;
+    content: " ";
+    display: block;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    position: absolute;
+    background: #F2F5F4;
+    top: -30px;
+    right: 84px;
+}
+.feature__item .item-text{
+    font-size: 18px;
+    font-weight: 300;
+    color: #666666;
+    text-align: center;
+}
