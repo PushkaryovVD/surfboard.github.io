@@ -56,14 +56,19 @@
 	line-height: 1.2;
 	margin-bottom: 39px;
 }
+.main-page__advanteges{
+	padding-bottom: 68px;
+}
 .advantege__list {
 	display: inline-flex;
-	margin-bottom: 68px;
 }
 .advantege__item {
 	display: inline-flex;
 	max-width: 142px;
 	margin-right: 34px;
+	&:last-child{
+		margin-right: 0;
+	}
 }
 .advantege__text {
 	font-size: 16px;

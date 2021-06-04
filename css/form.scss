@@ -1,8 +1,11 @@
 .form {
 	display: flex;
-	background: gray;
+	
 	&--font-color--white{
 		color: #fff;
+	}
+	&--background{
+		background: #b2b2b2 url(../images/cta.png) top center/cover no-repeat;
 	}
 }
 .form__column{
@@ -16,6 +19,10 @@
 .form__row{
 	display: flex;
 	margin-bottom: 18px;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
 }
 .form__block{
 	flex: 1;
