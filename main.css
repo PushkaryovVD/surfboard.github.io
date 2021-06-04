@@ -430,7 +430,7 @@ li.feature__item.feature__item-circle:first-child:after {
   color: #fff;
 }
 .form--background {
-  background: #b2b2b2 url(../images/cta.png) top center/cover no-repeat;
+  background: #b2b2b2 url(./images/cta.png) top center/cover no-repeat;
 }
 .form:last-child {
   padding-bottom: 0;
@@ -546,7 +546,7 @@ li.feature__item.feature__item-circle:first-child:after {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible::before {
-  background: url("../images/icons/yes2.png") center center no-repeat;
+  background: url("./images/icons/yes2.png") center center no-repeat;
 }
 
 .radio__elem {
@@ -623,7 +623,7 @@ li.feature__item.feature__item-circle:first-child:after {
 }
 
 .map {
-  background: url(../images/map/map.png) center center/cover no-repeat;
+  background: url(./images/map/map.png) center center/cover no-repeat;
   min-height: 652px;
   max-width: 100%;
 }
