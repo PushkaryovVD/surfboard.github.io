@@ -131,6 +131,7 @@
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 17px;
+  padding: 0;
 }
 
 .features__header {
@@ -145,6 +146,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 49px;
+  padding-top: 62px;
 }
 
 .features__subtitle {
@@ -340,6 +342,7 @@ li.feature__item.feature__item-circle:first-child:after {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  cursor: pointer;
 }
 
 .team__img {
@@ -592,6 +595,9 @@ li.feature__item.feature__item-circle:first-child:after {
 .fixed-menu__item--active .fixed-menu__link {
   border-color: #fff;
 }
+.fixed-menu__item:last-child {
+  margin-bottom: 0;
+}
 
 .fixed-menu__link {
   display: block;
@@ -692,6 +698,6 @@ img {
   max-width: 100%;
 }
 
-.title {
-  padding-top: 62px;
+.section {
+  height: 100vh;
 }
