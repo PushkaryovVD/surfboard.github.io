@@ -345,7 +345,9 @@ li.feature__item.feature__item-circle:first-child:after {
 }
 
 .team__hidden {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
