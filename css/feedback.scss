@@ -17,6 +17,7 @@
 		font-size: 18px;
 		font-weight: 400;
 		color: $var8;
+		margin-bottom: 25px;
 	}
 	&__writer {
 		color: $var7;
@@ -24,7 +25,7 @@
 		font-size: 18px;
 	}
 }
-.reviev-img {
+.review__img {
 	max-width: 253px ;
 	margin-right: 40px;
 	padding: 42px 0px 42px 42px;
@@ -51,4 +52,15 @@
 }
 .feedback {
 	margin-bottom: 62px;
+}
+.authors__elem:hover .review--sec{
+	left: 0;
+}
+.review--sec{
+	position: absolute;
+	left: -9999px;
+}
+.review--third{
+	position: absolute;
+	left: -9999px;
 }

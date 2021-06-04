@@ -162,6 +162,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 53px;
 }
 
 .feature__list {
@@ -266,6 +267,7 @@ li.feature__item.feature__item-circle:first-child:after {
   font-size: 18px;
   font-weight: 400;
   color: #666666;
+  margin-bottom: 25px;
 }
 .review__writer {
   color: #292929;
@@ -273,7 +275,7 @@ li.feature__item.feature__item-circle:first-child:after {
   font-size: 18px;
 }
 
-.reviev-img {
+.review__img {
   max-width: 253px;
   margin-right: 40px;
   padding: 42px 0px 42px 42px;
@@ -312,6 +314,20 @@ li.feature__item.feature__item-circle:first-child:after {
 
 .feedback {
   margin-bottom: 62px;
+}
+
+.authors__elem:hover .review--sec {
+  left: 0;
+}
+
+.review--sec {
+  position: absolute;
+  left: -9999px;
+}
+
+.review--third {
+  position: absolute;
+  left: -9999px;
 }
 
 .team__title {
