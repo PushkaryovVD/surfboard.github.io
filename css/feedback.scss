@@ -11,13 +11,11 @@
 		color: $var7;
 		font-size: 27px;
 		font-weight: 700;
-		margin-bottom: 14px;
 	}
 	&__text {
 		font-size: 18px;
 		font-weight: 400;
 		color: $var8;
-		margin-bottom: 25px;
 	}
 	&__writer {
 		color: $var7;
@@ -26,7 +24,7 @@
 	}
 }
 .review__img {
-	max-width: 253px ;
+	max-width: 100%;
 	margin-right: 40px;
 	padding: 42px 0px 42px 42px;
 }
@@ -63,4 +61,13 @@
 .review--third{
 	position: absolute;
 	left: -9999px;
+}
+.review__item{
+	margin-bottom: 19px;
+	&:nth-child(2n){
+		margin-bottom: 30px;
+	}
+	&:last-child{
+		margin: 0;
+	}
 }

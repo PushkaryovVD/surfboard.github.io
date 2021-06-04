@@ -68,7 +68,7 @@
 .title__pages {
   font-size: 72px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 0.96;
 }
 
 .hello__text {
@@ -130,7 +130,7 @@
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 17px;
+  margin-bottom: 25px;
   padding: 0;
 }
 
@@ -145,7 +145,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 49px;
+  margin-bottom: 68px;
   padding-top: 62px;
 }
 
@@ -182,7 +182,7 @@
 }
 
 .feature__img {
-  margin-bottom: 50px;
+  margin-bottom: 34px;
   display: inline-block;
   width: 126px;
   height: 126px;
@@ -263,13 +263,11 @@ li.feature__item.feature__item-circle:first-child:after {
   color: #292929;
   font-size: 27px;
   font-weight: 700;
-  margin-bottom: 14px;
 }
 .review__text {
   font-size: 18px;
   font-weight: 400;
   color: #666666;
-  margin-bottom: 25px;
 }
 .review__writer {
   color: #292929;
@@ -278,7 +276,7 @@ li.feature__item.feature__item-circle:first-child:after {
 }
 
 .review__img {
-  max-width: 253px;
+  max-width: 100%;
   margin-right: 40px;
   padding: 42px 0px 42px 42px;
 }
@@ -332,6 +330,16 @@ li.feature__item.feature__item-circle:first-child:after {
   left: -9999px;
 }
 
+.review__item {
+  margin-bottom: 19px;
+}
+.review__item:nth-child(2n) {
+  margin-bottom: 30px;
+}
+.review__item:last-child {
+  margin: 0;
+}
+
 .team__title {
   font-size: 21px;
   font-weight: 700;
@@ -343,10 +351,19 @@ li.feature__item.feature__item-circle:first-child:after {
       -ms-flex-align: end;
           align-items: flex-end;
   cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 10px solid transparent;
+}
+
+.teams__title {
+  margin-bottom: 54px;
 }
 
 .team__img {
   min-height: 290px;
+  margin-bottom: 20px;
 }
 
 .team__list {
@@ -450,7 +467,7 @@ li.feature__item.feature__item-circle:first-child:after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 18px;
+  margin-bottom: 8px;
 }
 .form__row:last-child {
   margin-bottom: 0;
@@ -491,6 +508,11 @@ li.feature__item.feature__item-circle:first-child:after {
 }
 .form__controls:last-child {
   margin-bottom: 46px;
+}
+
+.section__title {
+  padding-top: 53px;
+  margin-bottom: 62px;
 }
 
 .shop {
