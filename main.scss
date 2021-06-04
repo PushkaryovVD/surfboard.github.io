@@ -6,7 +6,7 @@ $var5: #F2F5F4;
 $var6: #F8FAF9;
 $var7: #292929;
 $var8: #666666;
-
+$z-fixed-menu:100;
 $baseFontSize:18px;
 $containerwidth:940px;
 @import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800&display=swap);
@@ -21,7 +21,7 @@ $containerwidth:940px;
 @import "css/video.scss";
 @import "css/buttons";
 @import "css/radio.scss";
-
+@import "css/fixed-menu.scss";
 html, body {
 	margin: 0;
 	height: 100%;
