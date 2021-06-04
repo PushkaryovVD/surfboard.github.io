@@ -6,7 +6,8 @@
 		color: #fff;
 	}
 	&--background{
-		background: #b2b2b2 url(../images/cta.png) top center/cover no-repeat;
+		background: #b2b2b2;
+		background: url(../images/cta.png) top center/cover no-repeat;
 	}
 	&:last-child{
 		padding-bottom: 0;
