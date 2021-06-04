@@ -1,11 +1,15 @@
 .form {
 	display: flex;
-	
+	padding-bottom: 85px;
+
 	&--font-color--white{
 		color: #fff;
 	}
 	&--background{
 		background: #b2b2b2 url(../images/cta.png) top center/cover no-repeat;
+	}
+	&:last-child{
+		padding-bottom: 0;
 	}
 }
 .form__column{

@@ -3,6 +3,7 @@
 	right: 3%;
 	top: 20%;
 	z-index: $z-fixed-menu;
+	user-select: none;
 }
 .fixed-menu__item {
 	margin-bottom: 14px;
