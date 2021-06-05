@@ -8,13 +8,28 @@
 	&__hello {
 		margin-bottom: 64px;
 	}
+	&__content{
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
+		width: 50%;
+	}
+	&__advanteges{
+		position: absolute;
+		width: 65%;
+		bottom: 7%;
+	}
 }
 .header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 108px;
-	padding-top: 24px;
+	padding: 24px 0;
+	z-index: 1000;
+	width: 100%;
+	position: absolute;
 }
 .menu__list {
 	display: flex;
@@ -32,6 +47,12 @@
 .contacts__phone {
 	font-size: 22px;
 	font-weight: 700;
+
+	&--black{
+		color: #292929;
+		font-weight: normal;
+		font-size: 21px;
+	}
 }
 .contacts--phone::before {
 	content: "";
@@ -42,7 +63,6 @@
 	margin-right: 6px;
 }
 .hello__title {
-	max-width: 583px;
 	margin-bottom: 27px;
 }
 .title__pages {
@@ -56,16 +76,15 @@
 	line-height: 1.2;
 	margin-bottom: 45px;
 }
-.main-page__advanteges{
-	padding-bottom: 68px;
-}
+
 .advantege__list {
 	display: inline-flex;
+	
 }
 .advantege__item {
 	display: inline-flex;
 	max-width: 142px;
-	margin-right: 34px;
+	margin-right: 74px;
 	&:last-child{
 		margin-right: 0;
 	}

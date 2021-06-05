@@ -1,0 +1,31 @@
+.footer{
+    padding: 20px 0;
+    background-color: #fff;
+
+    &__col{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+.socials{
+    display: flex;
+
+    &__item{
+        margin-right: 14px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+}
+.contacts__address{
+    color: #292929;
+    font-weight: 400;
+    font-size: 21px;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+}
