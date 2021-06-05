@@ -82,4 +82,11 @@ img{
 }
 .section{
 	height: 100vh;
+    display: flex;
+	text-align: center;
+    align-items: center;
+	&:first-child{
+		align-items: normal;
+		text-align: start;
+	}
 }
