@@ -653,6 +653,7 @@ li.feature__item.feature__item-circle:first-child:after {
 html, body {
   margin: 0;
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
