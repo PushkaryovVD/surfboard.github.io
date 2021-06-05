@@ -22,7 +22,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 104px;
+  margin-bottom: 108px;
   padding-top: 24px;
 }
 
@@ -62,20 +62,20 @@
 
 .hello__title {
   max-width: 583px;
-  margin-bottom: 18px;
+  margin-bottom: 27px;
 }
 
 .title__pages {
   font-size: 72px;
   font-weight: 700;
-  line-height: 0.96;
+  line-height: 0.9;
 }
 
 .hello__text {
   font-size: 21px;
   font-weight: 400;
   line-height: 1.2;
-  margin-bottom: 39px;
+  margin-bottom: 45px;
 }
 
 .main-page__advanteges {
@@ -529,7 +529,7 @@ li.feature__item.feature__item-circle:first-child:after {
   outline: none;
   cursor: pointer;
   border-radius: 35px;
-  padding: 18px 40px;
+  padding: 24px 48px;
   text-transform: uppercase;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
