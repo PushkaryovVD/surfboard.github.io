@@ -572,6 +572,13 @@ li.feature__item.feature__item-circle:first-child:after {
   padding-left: 20px;
 }
 
+.button--yellow:hover {
+  -webkit-box-shadow: 0px 4px #a88900;
+          box-shadow: 0px 4px #a88900;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
 .radio {
   display: -webkit-box;
   display: -ms-flexbox;
