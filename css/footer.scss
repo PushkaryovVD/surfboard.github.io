@@ -7,7 +7,12 @@
         align-items: center;
         justify-content: center;
     }
-
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
 }
 .socials{
     display: flex;
@@ -28,4 +33,17 @@
 .footer__container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.socials{
+    display: flex;
+    align-items: center;
+}
+.socials__item{
+    margin-right: 14px;
+
+    &:last-child{
+        margin-right: 0;
+    }
 }

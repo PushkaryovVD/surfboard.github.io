@@ -1,3 +1,7 @@
-.map {
-    background: url(./images/map/map.png) center center/cover no-repeat;
+.map{
+    flex-direction: column;
+    &__content{
+        min-width: 100%;
+        background: url(../images/map/map.png);
+    }
 }
