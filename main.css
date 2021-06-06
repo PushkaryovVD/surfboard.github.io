@@ -7,6 +7,16 @@
 }
 .main-page .container {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .main-page__hello {
   margin-bottom: 64px;
@@ -25,11 +35,6 @@
           justify-content: center;
   height: 100%;
   width: 50%;
-}
-.main-page__advanteges {
-  position: absolute;
-  width: 65%;
-  bottom: 7%;
 }
 
 .header {

@@ -4,6 +4,9 @@
 	min-height: 652px;
 	.container {
 		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 	&__hello {
 		margin-bottom: 64px;
@@ -16,11 +19,6 @@
 		height: 100%;
 		width: 50%;
 	}
-	&__advanteges{
-		position: absolute;
-		width: 65%;
-		bottom: 7%;
-	}
 }
 .header {
 	display: flex;
@@ -29,7 +27,6 @@
 	padding: 24px 0;
 	z-index: 1000;
 	width: 100%;
-	// position: absolute;
 }
 .menu__list {
 	display: flex;
