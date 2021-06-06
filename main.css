@@ -45,7 +45,6 @@
   padding: 24px 0;
   z-index: 1000;
   width: 100%;
-  position: absolute;
 }
 
 .menu__list {
@@ -268,6 +267,7 @@ li.feature__item.feature__item-circle:first-child:after {
 
 .review__content {
   max-width: 527px;
+  text-align: left;
 }
 
 .review {
