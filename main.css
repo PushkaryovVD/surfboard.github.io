@@ -689,7 +689,7 @@ li.feature__item.feature__item-circle:first-child:after {
 }
 .map__content {
   min-width: 100%;
-  background: url(../images/map/map.png);
+  background: url(./images/map/map.png);
 }
 
 .footer {
@@ -769,9 +769,77 @@ li.feature__item.feature__item-circle:first-child:after {
   margin-right: 0;
 }
 
+.socials__item {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socials__link {
+  width: 20px;
+  height: 20px;
+}
+
+.socials__item--vk::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -25%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  background: url(./images/footer/icons.png) -50px -54px;
+}
+
+.socials__item--f::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  background: url(./images/footer/icons.png) -10px -10px;
+}
+
+.socials__item--insta::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  background: url(./images/footer/icons.png) -54px -10px;
+}
+
+.socials__item--twitter::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  background: url(./images/footer/icons.png)-10px -54px;
+}
+
 html, body {
   margin: 0;
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
