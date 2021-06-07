@@ -1,7 +1,9 @@
 .map{
     flex-direction: column;
     &__content{
-        min-width: 100%;
-        background: url(./images/map/map.png);
+        max-width: 100%;
+    }
+    &__img{
+        height: 100vh;
     }
 }

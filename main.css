@@ -690,13 +690,17 @@ li.feature__item.feature__item-circle:first-child:after {
           flex-direction: column;
 }
 .map__content {
-  min-width: 100%;
-  background: url(./images/map/map.png);
+  max-width: 100%;
+}
+.map__img {
+  height: 100vh;
 }
 
 .footer {
   padding: 1.1rem 0;
   background-color: #fff;
+  position: absolute;
+  bottom: 0;
 }
 .footer__col {
   display: -webkit-box;

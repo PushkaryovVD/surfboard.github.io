@@ -1,6 +1,8 @@
 .footer{
     padding: 1.1rem 0;
     background-color: #fff;
+    position: absolute;
+    bottom: 0;
 
     &__col{
         display: flex;
