@@ -1,56 +1,56 @@
 .review__content {
-	max-width: 527px;
+	max-width: 29.27rem;
 	text-align: left;
 }
 .review {
 	background: $var6;
 	display: inline-flex;
 	align-items: center;
-	margin-bottom: 15px;
+	margin-bottom: 0.83rem;
 	width: 100%;
 	&__title {
 		color: $var7;
-		font-size: 27px;
+		font-size: 1.5rem;
 		font-weight: 700;
 	}
 	&__text {
-		font-size: 18px;
+		font-size: 1rem;
 		font-weight: 400;
 		color: $var8;
 	}
 	&__writer {
 		color: $var7;
 		font-weight: 500;
-		font-size: 18px;
+		font-size: 1rem;
 	}
 }
 .review__img {
 	max-width: 100%;
-	margin-right: 40px;
-	padding: 42px 0px 42px 42px;
+	margin-right: 2.2rem;
+	padding: 2.3rem 0px 2.3rem 2.3rem;
 }
 .authors__list {
 	display: flex;
-	gap: 12px;
+	gap: 0.6rem;
 	align-content: center;
 	justify-content: center;
 	align-items: center;
 }
 .authors--img {
 	cursor: pointer;
-	border: 6px solid transparent;
+	border: 0.3rem solid transparent;
 	border-radius: 50%;
 	box-sizing: border-box;
-	width: 74px;
+	width: 4.1rem;
 	&:hover {
-		border: 6px solid yellow;
+		border: 0.3rem solid yellow;
 		border-radius: 50%;
-		gap: 6px;
+		gap: 0.3rem;
 		transition: .5s;
 	}
 }
 .feedback {
-	margin-bottom: 62px;
+	margin-bottom: 3.4rem;
 }
 .authors__elem:hover .review--sec{
 	left: 0;
@@ -64,9 +64,9 @@
 	left: -9999px;
 }
 .review__item{
-	margin-bottom: 19px;
+	margin-bottom: 1.05rem;
 	&:nth-child(2n){
-		margin-bottom: 30px;
+		margin-bottom: 1.6rem;
 	}
 	&:last-child{
 		margin: 0;

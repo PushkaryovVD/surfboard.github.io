@@ -1,7 +1,6 @@
 .main-page {
 	color: $var1;
     background: url(./images/main-bg.png) center center/cover no-repeat;
-	min-height: 652px;
 	.container {
 		position: relative;
 		display: flex;
@@ -9,7 +8,7 @@
 		justify-content: space-between;
 	}
 	&__hello {
-		margin-bottom: 64px;
+		margin-bottom: 3.5rem;
 	}
 	&__content{
 		position: relative;
@@ -20,14 +19,14 @@
 		width: 50%;
 	}
 	&__advanteges{
-		padding-bottom: 68px;
+		padding-bottom: 3.7rem;
 	}
 }
 .header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 24px 0;
+	padding: 1.3rem 0;
 	z-index: 1000;
 	width: 100%;
 }
@@ -35,46 +34,46 @@
 	display: flex;
 }
 .menu__item {
-	margin-right: 22px;
+	margin-right: 1.2rem;
 	&:last-child {
 		margin: 0;
 	}
 }
 .menu__link {
-	font-size: 18px;
+	font-size: 1rem;
 	font-weight: 700;
 }
 .contacts__phone {
-	font-size: 22px;
+	font-size: 1.2rem;
 	font-weight: 700;
 
 	&--black{
 		color: #292929;
 		font-weight: normal;
-		font-size: 21px;
+		font-size: 1.16rem;
 	}
 }
 .contacts--phone::before {
 	content: "";
 	display: inline-flex;
     background: url(./images/footer/phone.png) no-repeat;
-	width: 12px;
-	height: 12px;
-	margin-right: 6px;
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-right: 0.3rem;
 }
 .hello__title {
-	margin-bottom: 27px;
+	margin-bottom: 1.5rem;
 }
 .title__pages {
-	font-size: 72px;
+	font-size: 4rem;
 	font-weight: 700;
 	line-height: 0.90;
 }
 .hello__text {
-	font-size: 21px;
+	font-size: 1.16;
 	font-weight: 400;
 	line-height: 1.2;
-	margin-bottom: 45px;
+	margin-bottom: 2.5rem;
 }
 
 .advantege__list {
@@ -83,18 +82,19 @@
 }
 .advantege__item {
 	display: inline-flex;
-	max-width: 142px;
-	margin-right: 74px;
+	align-items: center;
+	max-width: 7.8rem;
+	margin-right: 4.1rem;
 	&:last-child{
 		margin-right: 0;
 	}
 }
 .advantege__text {
-	font-size: 16px;
+	font-size: 0.8rem;
 	font-weight: 700;
 }
 .advantege__img {
-	height: 35px;
-	margin-right: 14px;
+	height: 1.94rem;
+	margin-right: 0.7rem;
 	display: block;
 }

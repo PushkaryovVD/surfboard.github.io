@@ -1,6 +1,6 @@
 .form {
 	display: flex;
-	padding-bottom: 85px;
+	padding-bottom: 4.72rem;
 
 	&--font-color--white{
 		color: #fff;
@@ -14,7 +14,7 @@
 }
 .form__column{
 	flex: 1;
-	margin-right: 20px;
+	margin-right: 1.1rem;
 	
 	&:last-child{
 		margin-right: 0;
@@ -22,7 +22,7 @@
 }
 .form__row{
 	display: flex;
-	margin-bottom: 8px;
+	margin-bottom: 0.4rem;
 
 	&:last-child{
 		margin-bottom: 0;
@@ -30,7 +30,7 @@
 }
 .form__block{
 	flex: 1;
-	margin-right: 20px;
+	margin-right: 1.1rem;
 
 	&:last-child{
 		margin-right: 0;
@@ -39,10 +39,10 @@
 .form__input{
 	width: 100%;
 	border: none;
-	padding: 18px 11px;
-	border: solid 3px transparent;
+	padding: 1rem 0.61rem;
+	border: solid 0.16rem transparent;
 	&--textarea{
-		height: 180px;
+		height: 10rem;
 		resize: none;
 	}
 	&:focus{
@@ -53,13 +53,13 @@
 .form__controls{
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 19px;
+	margin-bottom: 1.05rem;
 
 	&:last-child{
-		margin-bottom: 46px;
+		margin-bottom: 2.5rem;
 	}
 }
 .section__title {
-	padding-top: 53px;
-	margin-bottom: 62px;
+	padding-top: 2.94rem;
+	margin-bottom: 3.4rem;
 }

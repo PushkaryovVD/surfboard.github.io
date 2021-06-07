@@ -1,80 +1,80 @@
 .features{
-    margin-bottom: 114px;
+    margin-bottom: 6.3rem;
     .container{
         width: auto;
     }
 }
 .features__title{
     align-items: center;
-    margin-bottom: 81px;
+    margin-bottom: 4.5rem;
 }
 .title{
-    font-size: 48px;
+    font-size: 2.6rem;
     font-weight: 700;
     line-height: 1.2;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 1.38rem;
     padding: 0;
 }
 .features__header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 68px;
-    padding-top: 62px;
+    margin-bottom: 3.7rem;
+    padding-top: 3.4rem;
 }
 
 .features__subtitle{
     text-align: center;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 1.2;
     color: $var8;
-    max-width: 436px;
+    max-width: 24.2rem;
 }
 .features__list{
     display: flex;
     justify-content: center;
-    gap: 53px;
+    gap: 2.94rem;
 }
 
 .feature__list{
-    max-width: 279px;
+    max-width: 15.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .feature__img{
-    margin-bottom: 34px;
+    margin-bottom: 1.8rem;
     display: inline-block;
-    width: 126px;
-    height: 126px;
+    width: 7rem;
+    height: 7rem;
     position: relative;
     background: #f2f5f4;
     border-radius: 50%;
     overflow: hidden;
 }
 .feature__icon{
-    height: 69px;
-    width: 75px;
+    height: 3.83rem;
+    width: 4.16rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .feature__title{
-    font-size: 27px;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.1rem;
 }
 .feature__item-circle::after{
     z-index: -1;
     content: url("./images/icons/Combinedshape.png");
     display: block;
     position: absolute;
-    left: -62px;
-    top: 42px;
+    left: -3.4rem;
+    top: 2.3rem;
 
 }
 li.feature__item.feature__item-circle:first-child:after {
@@ -88,9 +88,9 @@ li.feature__item.feature__item-circle:first-child:after {
     
 }
 .feature__text{
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 300;
     color: $var8;
     text-align: center;
-    max-width: 279px;
+    max-width: 15.5rem;
 }
