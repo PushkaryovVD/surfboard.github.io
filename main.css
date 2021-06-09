@@ -87,7 +87,7 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background: url(./images/footer/phone.png) no-repeat;
+  background-position: -218px -186px;
   width: 0.6rem;
   height: 0.6rem;
   margin-right: 0.3rem;
@@ -800,7 +800,7 @@ li.feature__item.feature__item-circle:first-child:after {
   left: 50%;
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
-  background: url(./images/footer/icons.png) -50px -54px;
+  background: url(./images/icons.png) -50px -238px;
 }
 
 .socials__item--f::after {
@@ -813,7 +813,7 @@ li.feature__item.feature__item-circle:first-child:after {
   left: 50%;
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
-  background: url(./images/footer/icons.png) -10px -10px;
+  background-position: -250px -98px;
 }
 
 .socials__item--insta::after {
@@ -826,7 +826,7 @@ li.feature__item.feature__item-circle:first-child:after {
   left: 50%;
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
-  background: url(./images/footer/icons.png) -54px -10px;
+  background-position: -250px -186px;
 }
 
 .socials__item--twitter::after {
@@ -839,7 +839,7 @@ li.feature__item.feature__item-circle:first-child:after {
   left: 50%;
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
-  background: url(./images/footer/icons.png)-10px -54px;
+  background-position: -10px -238px;
 }
 
 html, body {
@@ -928,4 +928,15 @@ img {
       -ms-flex-align: normal;
           align-items: normal;
   text-align: start;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
 }

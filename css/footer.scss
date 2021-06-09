@@ -66,7 +66,7 @@
     top: -25%;
     left: 50%;
     transform: translate(-50%,50%);
-    background: url(./images/footer/icons.png) -50px -54px;
+    background: url(./images/icons.png) -50px -238px;
 }
 .socials__item--f::after{
     content: "";
@@ -76,7 +76,7 @@
     top: -50%;
     left: 50%;
     transform: translate(-50%,50%);
-    background: url(./images/footer/icons.png) -10px -10px;
+    background-position: -250px -98px;
 }
 .socials__item--insta::after{
     content: "";
@@ -86,7 +86,7 @@
     top: -50%;
     left: 50%;
     transform: translate(-50%,50%);
-    background: url(./images/footer/icons.png) -54px -10px;
+    background-position: -250px -186px;
 }
 .socials__item--twitter::after{
     content: "";
@@ -96,5 +96,5 @@
     top: -50%;
     left: 50%;
     transform: translate(-50%,50%);
-    background: url(./images/footer/icons.png)-10px -54px;
+    background-position: -10px -238px;
 }
