@@ -1,14 +1,39 @@
+@import "css/media.scss";
+.menu{
+	@include tablets{
+		display: none;
+	}
+}
 .main-page {
 	color: $var1;
     background: url(./images/main-bg.png) center center/cover no-repeat;
+
+	@include tablets{
+		background: white;
+	}
 	.container {
 		position: relative;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+
+		@include tablets{
+			width: 100%;
+		}
 	}
 	&__hello {
 		margin-bottom: 3.5rem;
+
+		@include tablets{
+			width: 100%;
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			background: url(./images/main-bg.png) center center/cover no-repeat;
+		}
 	}
 	&__content{
 		position: relative;
@@ -29,6 +54,20 @@
 	padding: 1.3rem 0;
 	z-index: 1000;
 	width: 100%;
+
+	@include tablets{
+		background: #1968B1;
+	}
+}
+.logo{
+	@include tablets{
+		margin-left: rem(30px);
+	}
+}
+.header__phone{
+	@include tablets{
+		display: none;
+	}
 }
 .menu__list {
 	display: flex;
@@ -63,6 +102,10 @@
 }
 .hello__title {
 	margin-bottom: 1.5rem;
+
+	@include tablets{
+		padding: 0 rem(51px);
+	}
 }
 .title__pages {
 	font-size: 4rem;
@@ -79,6 +122,11 @@
 .advantege__list {
 	display: inline-flex;
 	
+}
+.main-page__advanteges{
+	@include tablets{
+		display: none;
+	}
 }
 .advantege__item {
 	display: inline-flex;

@@ -1,9 +1,13 @@
 @function rem($px){
     @return $px / $baseFontSize + 0rem;
 }
-@media screen and(max-width:768px) {
-	html{font-size: 17px;}
+@mixin tablets {
+    @media screen and(max-width:$tablets) {
+        @content;
+    }
 }
-@media screen and(max-width:480px) {
-	html{font-size: 16px;}
+@mixin phones {
+    @media screen and(max-width:$phones) {
+	    @content;
+    }
 }
