@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800&display=swap);
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+.menu {
+  margin: 0 30px;
+  padding-top: 5px;
+}
 @media screen and (max-width: 768px) {
   .menu {
     display: none;
@@ -83,9 +87,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -105,6 +109,12 @@
   }
 }
 
+.header__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5px;
+}
 @media screen and (max-width: 768px) {
   .header__phone {
     display: none;
@@ -115,10 +125,16 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .menu__item {
   margin-right: 1.2rem;
+  margin-bottom: 10px;
 }
 .menu__item:last-child {
   margin: 0;
@@ -127,11 +143,13 @@
 .menu__link {
   font-size: 1rem;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .contacts__phone {
   font-size: 1.2rem;
   font-weight: 700;
+  white-space: nowrap;
 }
 .contacts__phone--black {
   color: #292929;
@@ -908,6 +926,37 @@ li.feature__item.feature__item-circle:first-child:after {
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
   background-position: -10px -238px;
+}
+
+.hamburger {
+  width: 24px;
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: none;
+  margin-right: 1.8333333333rem;
+}
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+
+.hamburger__plank {
+  display: block;
+  background: #fff;
+  height: 4px;
+  border-radius: 10px;
 }
 
 html, body {
