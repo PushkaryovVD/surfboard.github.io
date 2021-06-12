@@ -1,6 +1,10 @@
 .review__content {
 	max-width: 29.27rem;
 	text-align: left;
+
+	@include tablets{
+		text-align: center;
+	}
 }
 .review {
 	background: $var6;
@@ -23,11 +27,18 @@
 		font-weight: 500;
 		font-size: 1rem;
 	}
+	@include tablets{
+		flex-direction: column;
+	}
 }
 .review__img {
 	max-width: 100%;
 	margin-right: 2.2rem;
 	padding: 2.3rem 0px 2.3rem 2.3rem;
+
+	@include tablets{
+		width: rem(130px);
+	}
 }
 .authors__list {
 	display: flex;

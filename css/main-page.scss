@@ -112,15 +112,25 @@
 }
 .hello__title {
 	margin-bottom: 1.5rem;
+	text-transform: uppercase;
 
-	@include tablets{
-		padding: 0 rem(51px);
-	}
+
+
 }
 .title__pages {
 	font-size: 4rem;
 	font-weight: 700;
 	line-height: 0.90;
+
+	@include tablets{
+		line-height: 57.2px;
+		font-size: 48px;
+		padding: 0 6%;
+	}
+	@include phones{
+		font-size: 40px;
+		line-height: 36px;
+	}
 }
 .hello__text {
 	font-size: 1.16;

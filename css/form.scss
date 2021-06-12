@@ -2,6 +2,10 @@
 	display: flex;
 	padding-bottom: 4.72rem;
 
+	@include tablets{
+		flex-direction: column;
+    	padding: 0px 10%;
+	}
 	&--font-color--white{
 		color: #fff;
 	}
@@ -16,6 +20,10 @@
 	flex: 1;
 	margin-right: 1.1rem;
 	
+
+	@include tablets{
+		margin-right: 0;
+	}
 	&:last-child{
 		margin-right: 0;
 	}
@@ -57,6 +65,11 @@
 
 	&:last-child{
 		margin-bottom: 2.5rem;
+	}
+}
+.form__controls--tablets{
+	@include tablets{
+		margin-bottom: rem(38px);
 	}
 }
 .section__title {
