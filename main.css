@@ -37,6 +37,11 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 480px) {
+  .main-page .container {
+    background: #1968B1;
+  }
+}
 .main-page__hello {
   margin-bottom: 3.5rem;
 }
@@ -62,6 +67,11 @@
     text-align: center;
     background: url(./images/main-bg.png) center center/cover no-repeat;
     background-position: right;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-page__hello {
+    background: #1968B1;
   }
 }
 .main-page__content {
@@ -292,6 +302,17 @@
           justify-content: center;
   gap: 2.94rem;
 }
+@media screen and (max-width: 480px) {
+  .features__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
 
 .feature__list {
   max-width: 15.5rem;
@@ -316,6 +337,13 @@
   background: #f2f5f4;
   border-radius: 50%;
   overflow: hidden;
+}
+@media screen and (max-width: 480px) {
+  .feature__img {
+    margin-right: 12px;
+    width: 9rem;
+    height: 9rem;
+  }
 }
 
 .feature__icon {
@@ -360,6 +388,14 @@ li.feature__item.feature__item-circle:first-child:after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .feature__item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 .feature__text {
@@ -618,6 +654,11 @@ li.feature__item.feature__item-circle:first-child:after {
     padding: 0px 10%;
   }
 }
+@media screen and (max-width: 480px) {
+  .form {
+    padding: 0px 2%;
+  }
+}
 .form--font-color--white {
   color: #fff;
 }
@@ -733,7 +774,8 @@ li.feature__item.feature__item-circle:first-child:after {
 .button--borderless {
   background: transparent;
   font-weight: 400;
-  padding-left: 20px;
+  padding-left: 44px;
+  color: white;
 }
 
 .button--yellow:hover {
@@ -757,11 +799,21 @@ li.feature__item.feature__item-circle:first-child:after {
 .radio:last-child {
   margin-right: 0;
 }
+@media screen and (max-width: 768px) {
+  .radio:last-child {
+    margin-bottom: 0;
+  }
+}
 .radio--checkbox .radio__visible {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible::before {
   background: url("./images/icons/yes2.png") center center no-repeat;
+}
+@media screen and (max-width: 768px) {
+  .radio {
+    margin-bottom: 10px;
+  }
 }
 
 .radio__elem {
@@ -911,6 +963,19 @@ li.feature__item.feature__item-circle:first-child:after {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+.footer {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .socials {

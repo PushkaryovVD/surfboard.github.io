@@ -36,6 +36,11 @@
     display: flex;
     justify-content: center;
     gap: 2.94rem;
+
+    @include phones{
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 .feature__list{
@@ -53,6 +58,11 @@
     background: #f2f5f4;
     border-radius: 50%;
     overflow: hidden;
+    @include phones{
+        margin-right: 12px;
+        width: 9rem;
+        height: 9rem;
+    }
 }
 .feature__icon{
     height: 3.83rem;
@@ -86,6 +96,9 @@ li.feature__item.feature__item-circle:first-child:after {
     flex-direction: column;
     align-items: center;
     
+    @include phones{
+        flex-direction: row;
+    }
 }
 .feature__text{
     font-size: 1rem;

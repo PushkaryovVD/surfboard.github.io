@@ -6,6 +6,10 @@
     
     &:last-child{
         margin-right: 0;
+
+        @include tablets{
+            margin-bottom: 0;
+        }
     }
 
     &--checkbox{
@@ -16,8 +20,11 @@
         &::before{
                 background: url("./images/icons/yes2.png") center center no-repeat;
         }
+    
     }
-
+    }
+    @include tablets{
+        margin-bottom: 10px;
     }
 }
 .radio__elem{
