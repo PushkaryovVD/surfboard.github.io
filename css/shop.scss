@@ -4,6 +4,10 @@
     &__item{
         display: flex;
         align-items: center;
+
+        @include tablets{
+            flex-direction: column;
+        }
     }
     &__title{
         font-size: 36px;
@@ -11,6 +15,10 @@
     }
     &__text{
         color: #666;
+
+        @include tablets{
+            text-align: center;
+        }
     }
     &__desc{
         display: flex;
@@ -37,6 +45,12 @@
     }
     &__right{
         flex: 1;
+
+        @include tablets{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
     &__bottom{
         display: flex;
@@ -66,6 +80,10 @@
     background: #3A587E;
     margin-bottom: rem(52px);
     transition: .7s;
+
+    @include tablets{
+        display: none;
+    }
 }
 .shop__parametrs:hover {
     background-color: #3465A3;
@@ -92,6 +110,10 @@
     opacity: 0;
     transition: .8s;
     user-select: none;
+    
+    @include tablets{
+        display: none;
+    }
 }
 
 .shop-hidden__item{
