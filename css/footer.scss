@@ -66,4 +66,13 @@
 .socials-icon{
     width: rem(20px);
     height: rem(20px);
+    fill: #B3B3B3;
+    transition: .7s;
+}
+.socials-icon:hover {
+    fill: black;
+    transition: .7s;
+}
+.contacts-icon{
+    fill: #000;
 }

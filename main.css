@@ -237,6 +237,7 @@
   height: 1.9444444444rem;
   width: 1.9444444444rem;
   margin-right: 0.7777777778rem;
+  fill: white;
 }
 
 .advantege__text {
@@ -254,6 +255,7 @@
   width: 0.7222222222rem;
   height: 0.7222222222rem;
   margin-right: 0.2777777778rem;
+  fill: white;
 }
 
 .features {
@@ -1035,6 +1037,19 @@ li.feature__item.feature__item-circle:first-child:after {
 .socials-icon {
   width: 1.1111111111rem;
   height: 1.1111111111rem;
+  fill: #B3B3B3;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.socials-icon:hover {
+  fill: black;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.contacts-icon {
+  fill: #000;
 }
 
 .hamburger {
