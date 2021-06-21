@@ -63,43 +63,7 @@
 .socials__link{
     width: 1.32rem; height: 1.32rem;
 }
-.socials__item--vk::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 1.32rem;height:1.32rem;
-    top: -25%;
-    left: 50%;
-    transform: translate(-50%,50%);
-    background: url(./images/icons.png) -50px -238px;
-}
-.socials__item--f::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 1.32rem;height: 1.32rem;
-    top: -50%;
-    left: 50%;
-    transform: translate(-50%,50%);
-    background-position: -250px -98px;
-}
-.socials__item--insta::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 1.32rem;height:1.32rem;
-    top: -50%;
-    left: 50%;
-    transform: translate(-50%,50%);
-    background-position: -250px -186px;
-}
-.socials__item--twitter::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 1.32rem;height: 1.32rem;
-    top: -50%;
-    left: 50%;
-    transform: translate(-50%,50%);
-    background-position: -10px -238px;
+.socials-icon{
+    width: rem(20px);
+    height: rem(20px);
 }

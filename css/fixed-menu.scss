@@ -4,6 +4,10 @@
 	top: 20%;
 	z-index: $z-fixed-menu;
 	user-select: none;
+
+	@include tablets{
+		display: none;
+	}
 }
 .fixed-menu__item {
 	margin-bottom: 14px;

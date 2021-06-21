@@ -38,6 +38,9 @@
 
 	@include tablets{
 		width: rem(130px);
+		margin-right: 0;
+		padding: rem(56px) 0 rem(32px) 0;
+		
 	}
 }
 .authors__list {
