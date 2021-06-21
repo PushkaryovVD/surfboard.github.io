@@ -1058,6 +1058,10 @@ li.feature__item.feature__item-circle:first-child:after {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+    position: fixed;
+    z-index: 1000;
+    top: 34px;
+    right: 34px;
   }
 }
 
