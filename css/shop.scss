@@ -45,6 +45,7 @@
     }
     &__right{
         flex: 1;
+        position: relative;
 
         @include tablets{
             display: flex;
@@ -105,8 +106,8 @@
 .shop-hidden{
     width: 274px;
     position: absolute;
-    top: 2035px;
-    right: 338px;
+    top: 0;
+    left: 20%;
     opacity: 0;
     transition: .8s;
     user-select: none;
