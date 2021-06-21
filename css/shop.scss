@@ -1,3 +1,112 @@
 .shop{
-    display: none;
+
+
+    &__item{
+        display: flex;
+        align-items: center;
+    }
+    &__title{
+        font-size: 36px;
+        font-weight: 700;
+    }
+    &__text{
+        color: #666;
+    }
+    &__desc{
+        display: flex;
+        justify-content: flex-start;
+        gap: 52px;
+    }
+    &__desc-title{
+        color: #666;
+    }
+    &__desc-text{
+        color: #000;
+        font-weight: 700;
+    }
+    &__img{
+        background: url(../images/shop/back.png) center no-repeat;
+    }
+    &__price{
+        font-weight: 300;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    &__left{
+        flex: 1;
+    }
+    &__right{
+        flex: 1;
+    }
+    &__bottom{
+        display: flex;
+        gap: 28px;
+    }
+}
+.shop--indent{
+    margin-bottom: rem(24px);
+}
+.shop__parametrs-icon{
+    width: rem(38px);
+    height: rem(38px);
+    margin-top: 16px;
+    margin-bottom: 10px;
+    fill: white;
+}
+.shop__parametrs-title{
+    color: white;
+    text-transform: uppercase;
+}
+.shop__parametrs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: rem(91px);
+    height: rem(91px);
+    background: #3A587E;
+    margin-bottom: rem(52px);
+    transition: .7s;
+}
+.shop__parametrs:hover {
+    background-color: #3465A3;
+    transition: .7s;
+}
+.shop__parametrs:hover ~ .shop-hidden{
+    opacity: 1;
+    transition: .8s;
+}
+.shop-hidden:hover{
+    opacity: 1;
+    transition: .8s;
+}
+
+.shop-hidden-icon{
+    width: 24px;
+    height: 28px;
+}
+.shop-hidden{
+    width: 274px;
+    position: absolute;
+    top: 2035px;
+    right: 338px;
+    opacity: 0;
+    transition: .8s;
+    user-select: none;
+}
+
+.shop-hidden__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+.shop-hidden__list{
+    background: #ECECEC;
+    box-shadow: 4px 4px 40px rgb(0 0 0 / 6%);
+    padding: 30px 28px;
+    border-radius: 4px;
 }

@@ -129,29 +129,67 @@
                 </section>
                 <section class="shop" id="shop">
                     <div class="container">
-                        <img src="" alt="board" class="shop__img">
                         <ul class="shop__list">
                             <li class="shop__item">
-                                <img src="" alt="" class="shop__icon">
-                                <h6 class="shop__icon--title">параметры</h6>
+                                <div class="shop__left">
+                                    <img src="./images/shop/board1.png" alt="#" class="shop__img shop--vector">
+                                </div>
+                                <div class="shop__right">
+                                    <div class="shop__parametrs">
+                                        <svg class="shop__parametrs-icon">
+                                            <use xlink:href="./images/svg_icons/sprite.svg#parametr"></use>
+                                        </svg>
+                                        <h5 class="shop__parametrs-title">параметры</h5>
+                                    </div>
+                                    <div class="shop-hidden">
+                                        <ul class="shop-hidden__list">
+                                            <li class="shop-hidden__item">
+                                                <svg class="shop-hidden-icon"><use xlink:href="./images/svg_icons/sprite.svg#width"></use></svg>
+                                                <div class="shop-hidden-title">Длина доски</div>
+                                                <div class="shop-hidden-parametr">от 2,5 м</div>
+                                            </li>
+                                            <li class="shop-hidden__item">
+                                                <svg class="shop-hidden-icon"><use xlink:href="./images/svg_icons/sprite.svg#diag"></use></svg>
+                                                <div class="hidden__item-title">Ширина доски</div>
+                                                <div class="hidden__item-parametr">от 40 см</div>
+                                            </li>
+                                            <li class="shop-hidden__item">
+                                                <svg class="shop-hidden-icon"><use xlink:href="./images/svg_icons/sprite.svg#thickness"></use></svg>
+                                                <div class="hidden__item-title">Толщина</div>
+                                                <div class="hidden__item-parametr">8 см</div>
+                                            </li>
+                                            <li class="shop-hidden__item">
+                                                <svg class="shop-hidden-icon"><use xlink:href="./images/svg_icons/sprite.svg#time"></use></svg>
+                                                <div class="hidden__item-title">Срок службы</div>
+                                                <div class="hidden__item-parametr">5 лет</div>
+                                            </li>
+                                            <li class="shop-hidden__item">
+                                                <svg class="shop-hidden-icon"><use xlink:href="./images/svg_icons/sprite.svg#weight"></use></svg>
+                                                <div class="hidden__item-title">Вес</div>
+                                                <div class="hidden__item-parametr">7-8 кг</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h3 class="shop__title shop--indent">Лонгборд 2.0</h3>
+                                    <div class="shop__text shop--indent">Устойчивая доска для новичков. На них легко лежать, сидеть, грести, разгребаться на волны и ехать. Размер и плавучесть доски позволяет брать очень маленькие и пологие волны и не спеша, не прилагая особых усилий ехать по ним.
+                                    </div>
+                                    <div class="shop__desc shop--indent">
+                                        <div class="shop__desc-col">
+                                            <div class="shop__desc-title">Длина доски</div>
+                                            <div class="shop__desc-text">от 2,5 метров</div>
+                                        </div>
+                                        <div class="shop__desc-col">
+                                            <div class="shop__desc-title">Ширина доски</div>
+                                            <div class="shop__desc-text">от 40 сантиметров</div>
+                                        </div>
+                                    </div>
+                                    <div class="shop__bottom">
+                                        <div class="shop__price">7000 ₽</div>
+                                        <a href="#" class="shop__btn button button--primary button--yellow">ЗАКАЗАТЬ</a>
+                                    </div>
+                                </div>
                             </li>
-                            <li class="shop__item">
-                                <h4 class="shop__title">Лонгборд 2.0</h4>
-                            </li>
-                            <li class="shop__item">
-                                <p class="shop__text">Устойчивая доска для новичков. На них легко лежать, сидеть, грести, разгребаться на волны и ехать. Размер и плавучесть доски позволяет брать очень маленькие и пологие волны и не спеша, не прилагая особых усилий ехать по ним.
-                                </p>
-                            </li>
-                            <li class="shop__item shop__item--parametrs">
-                                <li class="shop__elem">
-
-                                </li>
-                                <li class="shop__elem">
-                                    
-                                </li>
-                            </li>
-                            <li class="shop__item"></li>
-                            <li class="shop__item"></li>
+                            
                         </ul>
                     </div>
                 </section>
@@ -410,5 +448,19 @@
         <span class="hamburger__plank"></span>
         <span class="hamburger__plank"></span>
     </a>
+    <div class="fullscreen-menu active">
+        <a href="" class="fullscreen-menu__close"></a>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item "><a href="#about" class="menu__link">О нас</a></li>
+                <li class="menu__item"><a href="#shop" class="menu__link">Серфборды</a></li>
+                <li class="menu__item "><a href="#team" class="menu__link">Команда</a></li>
+                <li class="menu__item "><a href="#slider" class="menu__link">Меню</a></li>
+                <li class="menu__item "><a href="#feedback" class="menu__link">Отзывы</a></li>
+                <li class="menu__item "><a href="#video" class="menu__link">Как мы работаем</a></li>
+                <li class="menu__item "><a href="#map" class="menu__link">Контакты </a></li>
+            </ul>
+        </nav>
+    </div>
 </body>
 </html>
