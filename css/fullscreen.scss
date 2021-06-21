@@ -1,0 +1,21 @@
+.fullscreen-menu__exit{
+    fill: white;
+    display: none;
+    transition: .8s;
+}
+.fullscreen-menu{
+    background: #313131;
+}
+.menu--vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    width: 253px;
+    left: 25%;
+}
+.fullscreen-menu{
+    height: 100vh;
+    position: relative;
+}

@@ -1277,6 +1277,39 @@ li.feature__item.feature__item-circle:first-child:after {
   border-radius: 10px;
 }
 
+.fullscreen-menu__exit {
+  fill: white;
+  display: none;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.fullscreen-menu {
+  background: #313131;
+}
+
+.menu--vertical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  width: 253px;
+  left: 25%;
+}
+
+.fullscreen-menu {
+  height: 100vh;
+  position: relative;
+}
+
 html, body {
   margin: 0;
   height: 100%;
